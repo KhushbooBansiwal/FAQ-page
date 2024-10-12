@@ -4,9 +4,12 @@
     box-sizing: border-box;
   }
   body{
-  background: url(bg.jpg);
+
+    background: url(bg.jpg) no-repeat center center fixed;
     background-size: cover;
     background-position: center;
+    font-family: 'Arial', sans-serif; 
+
   }
 .wrapper{
     display: flex;
@@ -18,12 +21,18 @@
     gap: 20px;
     background: transparent;
     box-shadow: 0 0 10px  #1127b9; ;
+    gap: 30px;
+    background: rgba(255, 255, 255, 0.8); 
+    border-radius: 15px;
+    background: transparent;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 
 }
 .wrapper button{
     padding: 10px 20px;
-    background: #91a1fa;
-    color:#1127b9;
+    background: linear-gradient(45deg, #7788e7, #a4aee8); 
+    background: #7788e7;
+    color:#1933d8;
     cursor: pointer;
     font-weight: bold;
     font-size: 20px;
@@ -36,6 +45,13 @@
 button:hover {
     color: #1228b9;
     background-color: #a4aee8;
+     box-shadow: 0 0 0 0 rgb(21, 54, 151);
+     transition: all 0.3s ease-in-out;
+}
+button:hover {
+    color: #ffffff;
+    background: linear-gradient(45deg, #a4aee8, #7788e7);
+
     box-shadow: 0 0 10px 5px rgba(3, 20, 254, 0.5);
 }
 .accordian{
@@ -53,6 +69,24 @@ button:hover {
 }
 .title{
     color: #8795f4;
+    max-width: 600px;
+    margin: auto;
+}
+.item{
+    /* background:#AD91A3; */
+    background: rgba(208, 201, 245, 0.9);
+    backdrop-filter: blur(10px);
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 15px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+   
+}
+.title{
+    color: #3247cf;
+    font-size: 15px;
+    position: relative;
+    display: flex;
     position: relative;
     justify-content: space-between;
     cursor: pointer;
@@ -61,6 +95,10 @@ button:hover {
 
 }
 .content{
+
     color: white;
     height:auto;
+    color: rgb(1, 20, 29);
+    font-size: 16px;
+    line-height: 1.5;
 }
