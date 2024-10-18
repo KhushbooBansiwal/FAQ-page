@@ -13,4 +13,8 @@ The design is user-friendly, making it easy for visitors to navigate through fre
 - **JavaScript**: For dynamic interactions and handling user inputs.
 
   ## Aplication Output-
-  [![FAQ- output](
+  ### FAQ Page Example
+  [![FAQ- output](https://github.com/KhushbooBansiwal/FAQ-page/blob/5657805e5ea6a7f00b04f6d1411ed38e5f7e5a49/output%20faqs.png)](https://github.com/KhushbooBansiwal/FAQ-page/blob/5657805e5ea6a7f00b04f6d1411ed38e5f7e5a49/output%20faqs.png)
+
+### Multi-Select Option Example
+[![FAQ-multiselection](https://github.com/KhushbooBansiwal/FAQ-page/blob/5657805e5ea6a7f00b04f6d1411ed38e5f7e5a49/multi%20op.png)](https://github.com/KhushbooBansiwal/FAQ-page/blob/5657805e5ea6a7f00b04f6d1411ed38e5f7e5a49/multi%20op.png)
